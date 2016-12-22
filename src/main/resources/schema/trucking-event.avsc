@@ -1,0 +1,17 @@
+{
+   "type" : "record",
+   "namespace" : "com.hortonworks.orendainx.trucking",
+   "name" : "truckingEvent",
+   "fields" : [
+      { "name" : "eventTime" , "type" : "string" },
+      { "name" : "truckId" , "type" : "int" },
+      { "name" : "driverId" , "type" : "int" },
+      { "name" : "driverName" , "type" : "string" },
+      { "name" : "routeId" , "type" : "int" },
+      { "name" : "routeName" , "type" : "string" },
+      { "name" : "latitude" , "type" : "string" },
+      { "name" : "longitude" , "type" : "string" },
+      { "name" : "speed" , "type" : "int" },
+      { "name" : "eventType" , "type" : "string" }
+   ]
+}

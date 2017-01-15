@@ -18,7 +18,7 @@ object SchemaRegistrar {
   import collection.JavaConversions._
 
   // Create logger
-  val log = Logger(this.getClass)
+  private val log = Logger(this.getClass)
 
   // Load default configuration file (application.conf in the resources folder)
   private val baseConfig = ConfigFactory.load()
